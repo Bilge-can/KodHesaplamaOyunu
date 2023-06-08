@@ -1358,3 +1358,21 @@ Received Import Request.
   path: Assets/Sprites/sahneElemanlar/arabaAparatlari.psd
   artifactKey: Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/sahneElemanlar/arabaAparatlari.psd using Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af9628a385a4b96de40d97a9dc986eb') in 0.068425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 848.781076 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonuclar1.psd
+  artifactKey: Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonuclar1.psd using Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48229fd479d3c8732c6dafbbdcd9c499') in 0.014226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.798128 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonuclar1.psd
+  artifactKey: Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonuclar1.psd using Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f539be3ebb9a7ccd74fb042bbdad47af') in 0.062429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 315.492308 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonuclar1.psd
+  artifactKey: Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonuclar1.psd using Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe4e6b7b3163b18e048ae7d512d2f6') in 0.061079 seconds 
