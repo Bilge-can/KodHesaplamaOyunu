@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
      void OyunaBasla()
     {
-        Debug.Log("oyun basladı");
+       // Debug.Log("oyun basladı");
     }
    
 }

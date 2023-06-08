@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/GameLevel/GameManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/PlayerManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/MermiManager.cs" />
+    <Compile Include="Assets/Scripts/GameLevel/CircleRotationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
