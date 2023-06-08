@@ -2,18 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ad874179-84da-419a-8c91-97ea77a89c9b" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menuLevel/MenuManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/menuLevel/MenuManager.cs" Line="13" Column="5" />
+      <File FileName="Assets/Scripts/menuLevel/MenuManager.cs" Line="7" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KodHesaplamaOyunuu" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="menuLevel" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
