@@ -27,11 +27,23 @@ public class PlayerManager : MonoBehaviour
 
     void RotateDegistir()
     {
+
+        Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - gun.transform.position;
+
+        angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+
+        if(angle<45 && angle >-45)
+        {
+            Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+            gun.transform.rotation = Quaternion.Slerp(gun.transform.rotation, rotation, donusHizi * Time.deltaTime);
+        }
+
+       
+
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - gun.transform.position;
-
-            angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+            
 
             if (Time.time > sonrakiAtis)
             {
@@ -42,9 +54,7 @@ public class PlayerManager : MonoBehaviour
 
       
 
-        Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-        gun.transform.rotation = Quaternion.Slerp(gun.transform.rotation, rotation, donusHizi * Time.deltaTime);
+        
     }
 
     void MermiAt()
