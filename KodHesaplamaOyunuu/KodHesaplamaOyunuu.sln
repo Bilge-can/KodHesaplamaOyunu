@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1BD93566-DE0A-8CAE-1FE0-78D9A106CBB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{312F6932-534C-A9E8-D6AD-93C813EAC3F9}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B8BB270-39A7-4362-BA44-11EEE00FDF82}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -18,6 +20,10 @@ Global
 		{1BD93566-DE0A-8CAE-1FE0-78D9A106CBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD93566-DE0A-8CAE-1FE0-78D9A106CBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD93566-DE0A-8CAE-1FE0-78D9A106CBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312F6932-534C-A9E8-D6AD-93C813EAC3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312F6932-534C-A9E8-D6AD-93C813EAC3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312F6932-534C-A9E8-D6AD-93C813EAC3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312F6932-534C-A9E8-D6AD-93C813EAC3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
