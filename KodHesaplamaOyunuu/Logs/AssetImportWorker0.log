@@ -1,0 +1,464 @@
+Unity Editor version:    2021.3.24f1 (cf10dcf7010d)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4 (Build 22F66)
+Darwin version:          22.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51453
+Successfully changed project path to: /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu
+/Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704269444672] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 19990232 [EditorId] 19990232 [Version] 1048832 [Id] OSXEditor(0,BilgeCan-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704269444672] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 19990232 [EditorId] 19990232 [Version] 1048832 [Id] OSXEditor(0,BilgeCan-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 95.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001268 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 110 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (217ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1438ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (169.5 KB). Loaded Objects now: 4189.
+Memory consumption went from 138.2 MB to 138.1 MB.
+Total: 4.764322 ms (FindLiveObjects: 0.501810 ms CreateObjectMapping: 0.332848 ms MarkObjects: 3.700475 ms  DeleteObjects: 0.227977 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19852.444786 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.005750 seconds.
+  path: Assets/Scenes/MenuLevel.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLevel.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e41f7b7a9286099bdf6440d2dbc764') in 0.001047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.294011 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(ad3823bf4e2af4979927b28034bd5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(ad3823bf4e2af4979927b28034bd5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e29b48868b7567500b538065ec30a80') in 0.001150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.024081 seconds.
+  path: Assets/Sprites/backgorund
+  artifactKey: Guid(c382141d056994347ac354cc928ce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund using Guid(c382141d056994347ac354cc928ce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621f7fa3f6197658a1b1558c9348690') in 0.001263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.454958 seconds.
+  path: Assets/Sprites/New Folder
+  artifactKey: Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Folder using Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d83e11767216127bda41c3c60cadb') in 0.001274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.529868 seconds.
+  path: Assets/Sprites/sahne
+  artifactKey: Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahne using Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd5bb9a9ea1aaf0a32e7d97462562ef') in 0.000909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.751023 seconds.
+  path: Assets/Sprites/sahneElemanlar
+  artifactKey: Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar using Guid(e6605381be8a74a3f9573d46fc5f9a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb8f47fdbc78bb0c5474bdd1c1a72a') in 0.000879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.356481 seconds.
+  path: Assets/Sprites/backgorund/background image.png
+  artifactKey: Guid(97b86c36c318a4e749e5f7ad5ad6aa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund/background image.png using Guid(97b86c36c318a4e749e5f7ad5ad6aa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a31ad409a3446a596f5c2a2d932958a') in 1.555314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.508743 seconds.
+  path: Assets/Sprites/backgorund/backgroundYeniImage.png
+  artifactKey: Guid(ba065e713c04743c597c514c2ffbc305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund/backgroundYeniImage.png using Guid(ba065e713c04743c597c514c2ffbc305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f104e2b1542b1ba53cb46b1cf17d8ea0') in 0.170079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.591953 seconds.
+  path: Assets/Sprites/backgorund/73015-OE826E-262.psd
+  artifactKey: Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund/73015-OE826E-262.psd using Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc47940eb38c82df15ea90d0f620356') in 1.446125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.427098 seconds.
+  path: Assets/Sprites/sahneElemanlar/dogruyanlisBack.png
+  artifactKey: Guid(b9cf9b4de1686484f8e52d5589723807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/dogruyanlisBack.png using Guid(b9cf9b4de1686484f8e52d5589723807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb5c3493bff29e5abd72eaaab38ea8') in 0.023398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/sahneElemanlar/tekrarOyna.png
+  artifactKey: Guid(604497deed46642ea9e944490f4bd87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/tekrarOyna.png using Guid(604497deed46642ea9e944490f4bd87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705ed5d79a76521fa4ff17784fd4e59') in 0.013362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.342449 seconds.
+  path: Assets/Sprites/sahneElemanlar/arabaAparatlari.psd
+  artifactKey: Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/arabaAparatlari.psd using Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd312814dd6b72e4bb4fcea5ec9dd0f80') in 0.058660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.852911 seconds.
+  path: Assets/Sprites/sahneElemanlar/baslaButon.psd
+  artifactKey: Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/baslaButon.psd using Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da66b4880b5d418619d9afa754ca3423') in 0.034329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.274459 seconds.
+  path: Assets/Sprites/sahneElemanlar/bonus.psd
+  artifactKey: Guid(f5712f71601954e209f8ed48500f2111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/bonus.psd using Guid(f5712f71601954e209f8ed48500f2111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caa969123bf0a57ea45722c1e0a647d') in 0.027298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.584625 seconds.
+  path: Assets/Sprites/sahneElemanlar/carpmaAltButonlar.psd
+  artifactKey: Guid(548f244162d974344a352007ddedf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/carpmaAltButonlar.psd using Guid(548f244162d974344a352007ddedf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e6cd3235a39efb8b8e10a6ea99be7a') in 0.026628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.906248 seconds.
+  path: Assets/Sprites/sahneElemanlar/dogruYanlisIcon.psd
+  artifactKey: Guid(259897598d34847f5b91402b14ef365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/dogruYanlisIcon.psd using Guid(259897598d34847f5b91402b14ef365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca573ca4d08fa877230fe727fd53cd4d') in 0.030089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.589993 seconds.
+  path: Assets/Sprites/sahneElemanlar/geriButon.psd
+  artifactKey: Guid(615d8b859ebbd4fafba7838279f2237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/geriButon.psd using Guid(615d8b859ebbd4fafba7838279f2237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c328db745f47c915acad99c2f531f94') in 0.021880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.127346 seconds.
+  path: Assets/Sprites/sahneElemanlar/icon433.png
+  artifactKey: Guid(a4f3c913ff9744363b058b8bac2ec47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/icon433.png using Guid(a4f3c913ff9744363b058b8bac2ec47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2131c154cb4590f6650ef18742c766') in 0.042050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.250641 seconds.
+  path: Assets/Sprites/sahneElemanlar/ikinciBaslaYazi.psd
+  artifactKey: Guid(20725e9fb00bb4b878006805b89d8457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/ikinciBaslaYazi.psd using Guid(20725e9fb00bb4b878006805b89d8457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c57b3119f33407d13eececede612c4') in 0.029698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.784644 seconds.
+  path: Assets/Sprites/sahneElemanlar/ip.psd
+  artifactKey: Guid(a8ca19ab6bd1f4323910823ce4b79e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/ip.psd using Guid(a8ca19ab6bd1f4323910823ce4b79e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2badaa9f267418751cc24cfcb274c2cc') in 0.018070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.418450 seconds.
+  path: Assets/Sprites/sahneElemanlar/menuCircle.psd
+  artifactKey: Guid(498e4c3e5c05a42a888d8475966fccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/menuCircle.psd using Guid(498e4c3e5c05a42a888d8475966fccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b05a34ba9c552dcc26418c8f7805166') in 0.046550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.831319 seconds.
+  path: Assets/Sprites/sahneElemanlar/pauseButton.psd
+  artifactKey: Guid(6f1aa4515fc984285a2ca0d5755c6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/pauseButton.psd using Guid(6f1aa4515fc984285a2ca0d5755c6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d68001e80bf054c3434185fe25d50c4') in 0.021035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.868039 seconds.
+  path: Assets/Sprites/sahneElemanlar/pausePanel.psd
+  artifactKey: Guid(e89d6dde47df4497dadf08abb5cb3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/pausePanel.psd using Guid(e89d6dde47df4497dadf08abb5cb3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ac76b87812915c0cc20046571ce84') in 0.038414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.084297 seconds.
+  path: Assets/Sprites/sahneElemanlar/projectile.psd
+  artifactKey: Guid(83a160643c90d4cf99ea3278c5712892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/projectile.psd using Guid(83a160643c90d4cf99ea3278c5712892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e33e57f05dc65700b5f8d27e6d1b75') in 0.032922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.299505 seconds.
+  path: Assets/Sprites/sahneElemanlar/solZamanDaire.psd
+  artifactKey: Guid(9931b5701cd7649418ba5b1d1df1dee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/solZamanDaire.psd using Guid(9931b5701cd7649418ba5b1d1df1dee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8264304226c2fd0210372e1bbc128a0') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398625 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonuclar1.psd
+  artifactKey: Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonuclar1.psd using Guid(b8f8caa4bcad545c59c590a484adf254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aa6c02e27d253a5719fc11014e1e7a') in 0.037906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.249736 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonucPanel.psd
+  artifactKey: Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonucPanel.psd using Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449639de768ceb5556bb7bb3a5ed4ef1') in 0.040794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.077100 seconds.
+  path: Assets/Sprites/sahneElemanlar/trueFalseIcon.psd
+  artifactKey: Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/trueFalseIcon.psd using Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378a549fb148894f138f3d57de1c045f') in 0.018141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 903.050262 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(4be602d529e2545e99e5c32be463dd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(4be602d529e2545e99e5c32be463dd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1536c876e745fc177b9fe10b84b69fe') in 0.001264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.135431 seconds.
+  path: Assets/Fonts/00327.ttf
+  artifactKey: Guid(36abf6596e09c490591a14af0ce2318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/00327.ttf using Guid(36abf6596e09c490591a14af0ce2318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d00406d6160726f6446d826474dfda7') in 4.242465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Fonts/junegull rg.ttf
+  artifactKey: Guid(7cd6f6950b0c24943986dcb577d2dd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/junegull rg.ttf using Guid(7cd6f6950b0c24943986dcb577d2dd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd476a014cb874a590e0b84059cf41e44') in 0.014127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Fonts/Super Comic.otf
+  artifactKey: Guid(ffcdca3e962134341b440d4dab62e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Super Comic.otf using Guid(ffcdca3e962134341b440d4dab62e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97283779bd3a131f3c4b03951d26b79a') in 0.135524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 254.798881 seconds.
+  path: Assets/Sprites/sahneElemanlar/baslaButon.psd
+  artifactKey: Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/baslaButon.psd using Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca18d96c99e3524918354a7abff892') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.407037 seconds.
+  path: Assets/Sprites/sahneElemanlar/baslaButon.psd
+  artifactKey: Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/baslaButon.psd using Guid(f48c168a4253c4e3e9a79fa469b96b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c768018e17a73057bfb459b3fedbf7') in 0.046442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 595.316572 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b9e463ef40d5641bd830114074d94623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b9e463ef40d5641bd830114074d94623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ed5d6d2fe54fc5e01ddc3f85f8ed52') in 0.001210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.923136 seconds.
+  path: Assets/Scripts/menuLevel
+  artifactKey: Guid(23b3a97cec7794b3ca08c751d5a07746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/menuLevel using Guid(23b3a97cec7794b3ca08c751d5a07746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba79bc9d15d627efcbab7cf6060a76e') in 0.001242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.864198 seconds.
+  path: Assets/Scripts/menuLevel/MenuManager.cs
+  artifactKey: Guid(5a79d73e5211445c1b27c94819d385dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/menuLevel/MenuManager.cs using Guid(5a79d73e5211445c1b27c94819d385dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643d008820cc52d9da346041d39a7f22') in 3.137981 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bilgecan/Desktop/4.sınıf 2.dönem/YMGK/KodHesaplamaOyunu/KodHesaplamaOyunuu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (149.1 KB). Loaded Objects now: 4297.
+Memory consumption went from 161.1 MB to 160.9 MB.
+Total: 4.417032 ms (FindLiveObjects: 0.378743 ms CreateObjectMapping: 0.250801 ms MarkObjects: 3.619410 ms  DeleteObjects: 0.166958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
