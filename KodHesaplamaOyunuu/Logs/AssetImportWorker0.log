@@ -1316,3 +1316,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 680.491688 seconds.
+  path: Assets/Scenes/GameLevel.unity
+  artifactKey: Guid(47ffb8b8c186244429f2d9e9ff804d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevel.unity using Guid(47ffb8b8c186244429f2d9e9ff804d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a652e7761e3f4568a277f45af45300f8') in 0.006459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.860733 seconds.
+  path: Assets/Sprites/backgorund/73015-OE826E-262.psd
+  artifactKey: Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund/73015-OE826E-262.psd using Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49adc4dfba190f930d8e1875d46b9cc') in 0.837347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.978949 seconds.
+  path: Assets/Sprites/backgorund/73015-OE826E-262.psd
+  artifactKey: Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/backgorund/73015-OE826E-262.psd using Guid(cb91fdda39b4b41e1a75806c7d8d6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fff8ed906af11e590c4edd50ff95305') in 0.330195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 378.988909 seconds.
+  path: Assets/Sprites/sahneElemanlar/trueFalseIcon.psd
+  artifactKey: Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/trueFalseIcon.psd using Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35b10474c798ce6176c0f374c4579f6') in 0.021630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.036819 seconds.
+  path: Assets/Sprites/sahneElemanlar/trueFalseIcon.psd
+  artifactKey: Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/trueFalseIcon.psd using Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e14c99627b3448904c273c98dcc436') in 0.048440 seconds 
