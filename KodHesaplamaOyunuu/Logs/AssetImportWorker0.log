@@ -1346,3 +1346,15 @@ Received Import Request.
   path: Assets/Sprites/sahneElemanlar/trueFalseIcon.psd
   artifactKey: Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/sahneElemanlar/trueFalseIcon.psd using Guid(5b4da71052a424f27aed5d35b548b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e14c99627b3448904c273c98dcc436') in 0.048440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 689.700757 seconds.
+  path: Assets/Sprites/sahneElemanlar/arabaAparatlari.psd
+  artifactKey: Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/arabaAparatlari.psd using Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a58447084d88d2613d9fb87ebbd3d7') in 0.017780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.188112 seconds.
+  path: Assets/Sprites/sahneElemanlar/arabaAparatlari.psd
+  artifactKey: Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/arabaAparatlari.psd using Guid(d86c959f821494a63b191fb89d4de370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af9628a385a4b96de40d97a9dc986eb') in 0.068425 seconds 
