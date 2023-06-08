@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/IkinciMenuLevel/AltMenuManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/GameManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/PlayerManager.cs" />
+    <Compile Include="Assets/Scripts/GameLevel/MermiManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

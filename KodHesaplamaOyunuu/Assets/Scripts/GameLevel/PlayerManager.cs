@@ -15,6 +15,10 @@ public class PlayerManager : MonoBehaviour
 
     [SerializeField]
     private GameObject[] mermiPrefab;
+
+    float ikiMermiArasiSure = 200f;
+
+    float sonrakiAtis;
    
     void Update()
     {
@@ -29,7 +33,11 @@ public class PlayerManager : MonoBehaviour
 
             angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
 
-            MermiAt();
+            if (Time.time > sonrakiAtis)
+            {
+                sonrakiAtis = Time.time + ikiMermiArasiSure / 1000;
+                MermiAt();
+            }
         }
 
       
