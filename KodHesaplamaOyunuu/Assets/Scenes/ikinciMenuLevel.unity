@@ -541,6 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 162012836}
   - component: {fileID: 162012837}
+  - component: {fileID: 162012838}
   m_Layer: 5
   m_Name: menuPanel
   m_TagString: Untagged
@@ -557,7 +558,7 @@ RectTransform:
   m_GameObject: {fileID: 162012835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 500316620}
@@ -591,6 +592,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162012835}
   m_CullTransparentMesh: 1
+--- !u!225 &162012838
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162012835}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &353105191
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +911,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 422054770}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 463093710}
+        m_TargetAssemblyTypeName: AltMenuManager, Assembly-CSharp
+        m_MethodName: GeriDon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &422054770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,6 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff77c0608d46403d824063bde7f9ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltMenuPaneli: {fileID: 162012835}
 --- !u!1 &500316619
 GameObject:
   m_ObjectHideFlags: 0
