@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ikinciMenuLevel.unity
     guid: f8dc9e063e3cb47588d91e3763693f03
+  - enabled: 1
+    path: Assets/Scenes/GameLevel.unity
+    guid: 47ffb8b8c186244429f2d9e9ff804d05
   m_configObjects: {}
