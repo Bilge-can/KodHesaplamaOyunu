@@ -207,6 +207,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &43091962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43091963}
+  m_Layer: 0
+  m_Name: mermiYeri
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43091963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43091962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.099, y: 0.437, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1435083239}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &111339642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1726,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 1435083239}
+  mermiyeri: {fileID: 43091963}
+  mermiPrefab:
+  - {fileID: 9128751944118577049, guid: 370df29660a6247c38f03cdac84c2dc2, type: 3}
+  - {fileID: 9128751944118577049, guid: 195e39a5c877e45f48d658a4cb6dcfd4, type: 3}
+  - {fileID: 9128751944118577049, guid: c7cd9743fc3e64916be20f4f8ef38cdc, type: 3}
+  - {fileID: 9128751944118577049, guid: 9603cdb30c0994f70b601f6283e52def, type: 3}
+  - {fileID: 9128751944118577049, guid: 7c7ab37ec2bef4ae9aba25401884fbc0, type: 3}
 --- !u!1 &974653841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2412,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1081148111}
+  - {fileID: 43091963}
   m_Father: {fileID: 968263000}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

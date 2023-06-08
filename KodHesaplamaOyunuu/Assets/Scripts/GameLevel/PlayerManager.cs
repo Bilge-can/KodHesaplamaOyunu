@@ -7,8 +7,14 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private Transform gun;
 
+    [SerializeField]
+    private Transform mermiyeri;
+
     float angle;
     float donusHizi = 5f;
+
+    [SerializeField]
+    private GameObject[] mermiPrefab;
    
     void Update()
     {
@@ -22,6 +28,8 @@ public class PlayerManager : MonoBehaviour
             Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - gun.transform.position;
 
             angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+
+            MermiAt();
         }
 
       
@@ -29,5 +37,12 @@ public class PlayerManager : MonoBehaviour
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         gun.transform.rotation = Quaternion.Slerp(gun.transform.rotation, rotation, donusHizi * Time.deltaTime);
+    }
+
+    void MermiAt()
+    {
+        GameObject mermi = Instantiate(mermiPrefab[Random.Range(0,mermiPrefab.Length)], mermiyeri.position, mermiyeri.rotation) as GameObject;
+
+        
     }
 }
