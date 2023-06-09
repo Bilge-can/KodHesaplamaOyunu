@@ -1,23 +1,34 @@
 ﻿<Properties StartupConfiguration="{1BD93566-DE0A-8CAE-1FE0-78D9A106CBB3}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ad874179-84da-419a-8c91-97ea77a89c9b" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menuLevel/MenuManager.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="76c7a36e-3a97-47b3-919b-9eb13ebba9c0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameLevel/CircleRotationManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/menuLevel/MenuManager.cs" Line="7" Column="41" />
+      <File FileName="Assets/Scripts/menuLevel/MenuManager.cs" />
+      <File FileName="Assets/Scripts/IkinciMenuLevel/AltMenuManager.cs" Line="15" Column="89" />
+      <File FileName="Assets/Scripts/GameLevel/GameManager.cs" Line="37" Column="10" />
+      <File FileName="Assets/Scripts/GameLevel/PlayerManager.cs" Line="35" Column="31" />
+      <File FileName="Assets/Scripts/GameLevel/MermiManager.cs" Line="15" Column="42" />
+      <File FileName="Assets/Scripts/GameLevel/CircleRotationManager.cs" Line="6" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KodHesaplamaOyunuu" expanded="True">
-            <Node name="Assets" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GameLevel" expanded="True" />
+                <Node name="IkinciMenuLevel" expanded="True" />
+                <Node name="menuLevel" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

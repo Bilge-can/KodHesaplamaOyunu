@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/menuLevel/MenuManager.cs" />
-    <Compile Include="Assets/Scripts/IkinciMenuLevel/AltMenuManager.cs" />
-    <Compile Include="Assets/Scripts/GameLevel/GameManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/PlayerManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/MermiManager.cs" />
+    <Compile Include="Assets/Scripts/IkinciMenuLevel/AltMenuManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/CircleRotationManager.cs" />
+    <Compile Include="Assets/Scripts/GameLevel/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

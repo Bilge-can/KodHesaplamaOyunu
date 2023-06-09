@@ -8,13 +8,7 @@ public class MermiManager : MonoBehaviour
 
     float mermiHizi = 15f;
     
-    void Start()
-    {
-        if (this.gameObject != null)
-        {
-            Destroy(this.gameObject, 3f);
-        }
-    }
+    
 
     
     void Update()
