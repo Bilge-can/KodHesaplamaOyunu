@@ -8,6 +8,13 @@ public class CircleRotationManager : MonoBehaviour
 {
     string hangiSonuc;
 
+    GameManager gameManager;
+
+    private void Awake()
+    {
+        gameManager = Object.FindObjectOfType<GameManager>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "mermi")
@@ -31,7 +38,7 @@ public class CircleRotationManager : MonoBehaviour
                 hangiSonuc = GameObject.Find("sagText").GetComponent<Text>().text;
             }
 
-            Debug.Log(hangiSonuc);
+            gameManager.SonucuKontrolEt(int.Parse(hangiSonuc));
         }
     }
 }

@@ -108,5 +108,17 @@ public class GameManager : MonoBehaviour
 
         return karisikListe;
     }
+
+    public void SonucuKontrolEt(int textSonucu)
+    {
+        if (textSonucu == dogruSonuc)
+        {
+            Debug.Log("dogru sonuc");
+        }
+        else
+        {
+            Debug.Log("yanlıs sonuc");
+        }
+    }
 }
 
