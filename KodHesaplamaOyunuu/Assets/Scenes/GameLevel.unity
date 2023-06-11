@@ -256,7 +256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &111339643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1922,7 +1922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &751371438
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2016,7 +2016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.84, y: -1.199997}
+  m_AnchoredPosition: {x: -1.8400002, y: -1.199997}
   m_SizeDelta: {x: 86.69, y: 82.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854726741
@@ -3229,6 +3229,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baslaImage: {fileID: 2110797404}
+  dogruImage: {fileID: 111339642}
+  yanlisImage: {fileID: 751371437}
   soruText: {fileID: 1162791182}
   birinciSonucText: {fileID: 705613358}
   ikinciSonucText: {fileID: 2017291178}

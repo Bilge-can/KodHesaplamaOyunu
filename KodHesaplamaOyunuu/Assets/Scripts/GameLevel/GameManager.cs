@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     private GameObject baslaImage;
 
     [SerializeField]
+    private GameObject dogruImage, yanlisImage;
+
+    [SerializeField]
     private Text soruText, birinciSonucText, ikinciSonucText, ucuncuSonucText;
 
     [SerializeField]
@@ -28,6 +31,9 @@ public class GameManager : MonoBehaviour
         dogruAdet = 0;
         yanlisAdet = 0;
         toplamPuan = 0;
+
+        dogruImage.GetComponent<RectTransform>().localScale = Vector3.zero;
+        yanlisImage.GetComponent<RectTransform>().localScale = Vector3.zero;
 
         if (PlayerPrefs.HasKey("oyunAcilsin"))
         {
@@ -119,14 +125,19 @@ public class GameManager : MonoBehaviour
 
     public void SonucuKontrolEt(string textSonucu)
     {
+        dogruImage.GetComponent<RectTransform>().localScale = Vector3.zero;
+        yanlisImage.GetComponent<RectTransform>().localScale = Vector3.zero;
+
         if (textSonucu == dogruSonuc)
         {
             dogruAdet++;
             toplamPuan += 20;
+            dogruImage.GetComponent<RectTransform>().DOScale(1, .1f);
         }
         else
         {
             yanlisAdet++;
+            yanlisImage.GetComponent<RectTransform>().DOScale(1, .1f);
         }
 
         dogruAdetText.text = dogruAdet.ToString()+ " DOĞRU";
