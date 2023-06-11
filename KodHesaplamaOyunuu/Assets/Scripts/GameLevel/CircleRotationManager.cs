@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System;
 
 public class CircleRotationManager : MonoBehaviour
 {
     string hangiSonuc;
 
     GameManager gameManager;
-
     private void Awake()
     {
-        gameManager = Object.FindObjectOfType<GameManager>();
+        gameManager = UnityEngine.Object.FindObjectOfType<GameManager>();
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -38,7 +39,8 @@ public class CircleRotationManager : MonoBehaviour
                 hangiSonuc = GameObject.Find("sagText").GetComponent<Text>().text;
             }
 
-            gameManager.SonucuKontrolEt(int.Parse(hangiSonuc));
+            gameManager.SonucuKontrolEt(hangiSonuc);
+
         }
     }
 }

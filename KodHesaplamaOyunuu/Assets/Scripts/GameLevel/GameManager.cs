@@ -12,22 +12,30 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Text soruText, birinciSonucText, ikinciSonucText, ucuncuSonucText;
 
-
+    [SerializeField]
+    private Text dogruAdetText, yanlisAdetText, puanText;
     string oyunAcilsin;
 
-    int dogruSonuc;
+    string dogruSonuc;
     int birinciYanlisSonuc;
     int ikinciYanlisSonuc;
+
+    int dogruAdet, yanlisAdet, toplamPuan;
 
 
     void Start()
     {
+        dogruAdet = 0;
+        yanlisAdet = 0;
+        toplamPuan = 0;
+
         if (PlayerPrefs.HasKey("oyunAcilsin"))
         {
             oyunAcilsin = PlayerPrefs.GetString("oyunAcilsin");
         }
 
         StartCoroutine(baslaYaziRoutine());
+
 
     }
 
@@ -48,7 +56,7 @@ public class GameManager : MonoBehaviour
         SoruyuYazdir();
     }
 
-    void SoruyuYazdir()
+    public void SoruyuYazdir()
     {
         string[] soru = { "225", "110", "136", "177", "125", "165", "134", "142", "256", "123" };
         string selectedSoru = soru[UnityEngine.Random.Range(0, soru.Length)];
@@ -74,7 +82,7 @@ public class GameManager : MonoBehaviour
     };
 
         string dogruCevap = dogruSonuclar[selectedSoru];
-
+        dogruSonuc = dogruCevap;
         List<string> karisikHarfler = Karistir(harfListesi, dogruCevap);
 
         birinciSonucText.text = karisikHarfler[0];
@@ -109,16 +117,37 @@ public class GameManager : MonoBehaviour
         return karisikListe;
     }
 
-    public void SonucuKontrolEt(int textSonucu)
+    public void SonucuKontrolEt(string textSonucu)
     {
         if (textSonucu == dogruSonuc)
         {
-            Debug.Log("dogru sonuc");
+            dogruAdet++;
+            toplamPuan += 20;
         }
         else
         {
-            Debug.Log("yanlıs sonuc");
+            yanlisAdet++;
         }
+
+        dogruAdetText.text = dogruAdet.ToString()+ " DOĞRU";
+        yanlisAdetText.text = yanlisAdet.ToString() + " YANLIŞ";
+        puanText.text = toplamPuan.ToString() + " PUAN";
+        SoruyuYazdir();
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -3138,6 +3138,9 @@ MonoBehaviour:
   birinciSonucText: {fileID: 705613358}
   ikinciSonucText: {fileID: 2017291178}
   ucuncuSonucText: {fileID: 1753299191}
+  dogruAdetText: {fileID: 1151116485}
+  yanlisAdetText: {fileID: 367232108}
+  puanText: {fileID: 949854596}
 --- !u!1 &1578143251
 GameObject:
   m_ObjectHideFlags: 0
