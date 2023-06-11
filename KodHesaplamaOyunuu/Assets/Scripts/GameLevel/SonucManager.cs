@@ -19,6 +19,13 @@ public class SonucManager : MonoBehaviour
     float sureTimer;
     bool resimAcilsinmi;
 
+    GameManager gameManager;
+
+    private void Awake()
+    {
+        gameManager = Object.FindObjectOfType<GameManager>();
+    }
+
     private void OnEnable()
     {
         sureTimer = 0;
@@ -53,9 +60,9 @@ public class SonucManager : MonoBehaviour
                 sureTimer = 1;
                 resimAcilsinmi = false;
 
-                dogruText.text = "10 DOĞRU";
-                yanlisText.text = "10 YANLIŞ";
-                puanText.text = "250 PUAN";
+                dogruText.text = gameManager.dogruAdet.ToString() + "DOĞRU";
+                yanlisText.text = gameManager.yanlisAdet.ToString() + "YANLIŞ";
+                puanText.text = gameManager.toplamPuan.ToString() + "PUAN";
 
                 tekrarOynaBtn.GetComponent<RectTransform>().DOScale(1, .3f);
                 anaMenuBtn.GetComponent<RectTransform>().DOScale(1, .3f);

@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     int birinciYanlisSonuc;
     int ikinciYanlisSonuc;
 
-    int dogruAdet, yanlisAdet, toplamPuan;
+    public int dogruAdet, yanlisAdet, toplamPuan;
 
     PlayerManager playerManager;
 
