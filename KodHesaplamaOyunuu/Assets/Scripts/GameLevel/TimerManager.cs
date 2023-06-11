@@ -20,7 +20,7 @@ public class TimerManager : MonoBehaviour
 
     void Start()
     {
-        kalanSure = 10;
+        kalanSure = 90;
         sureSaysinmi =true;
 
         sonucPaneli.SetActive(false);
