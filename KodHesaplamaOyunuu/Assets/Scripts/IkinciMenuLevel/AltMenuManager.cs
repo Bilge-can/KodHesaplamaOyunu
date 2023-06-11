@@ -8,7 +8,13 @@ public class AltMenuManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject AltMenuPaneli;
-    
+
+    [SerializeField]
+    private AudioSource audioSource;
+
+    [SerializeField]
+    private AudioClip butonClick;
+
     void Start()
     {
         AltMenuPaneli.GetComponent<CanvasGroup>().DOFade(1, 1f);
@@ -17,12 +23,14 @@ public class AltMenuManager : MonoBehaviour
 
     public void oyunAcilsin(string oyunAcilsin)
     {
+        audioSource.PlayOneShot(butonClick);
         PlayerPrefs.SetString("oyunAcilsin", oyunAcilsin);
         SceneManager.LoadScene("GameLevel");
     }
 
     public void GeriDon()
     {
+        audioSource.PlayOneShot(butonClick);
         SceneManager.LoadScene("MenuLevel");
     }
 }

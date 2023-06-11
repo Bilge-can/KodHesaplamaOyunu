@@ -22,6 +22,12 @@ public class PlayerManager : MonoBehaviour
 
     public bool rotaDegissinmi;
 
+    [SerializeField]
+    private AudioSource audioSource;
+
+    [SerializeField]
+    private AudioClip topClick;
+
     private void Start()
     {
         rotaDegissinmi = false;
@@ -70,6 +76,7 @@ public class PlayerManager : MonoBehaviour
 
     void MermiAt()
     {
+        audioSource.PlayOneShot(topClick);
         GameObject mermi = Instantiate(mermiPrefab[Random.Range(0,mermiPrefab.Length)], mermiyeri.position, mermiyeri.rotation) as GameObject;
 
         
