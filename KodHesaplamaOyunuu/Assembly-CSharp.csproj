@@ -63,6 +63,7 @@
     <Compile Include="Assets/Scripts/GameLevel/CircleRotationManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/GameManager.cs" />
     <Compile Include="Assets/Scripts/GameLevel/TimerManager.cs" />
+    <Compile Include="Assets/Scripts/GameLevel/SonucManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
