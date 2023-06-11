@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class SonucManager : MonoBehaviour
 {
@@ -60,14 +61,24 @@ public class SonucManager : MonoBehaviour
                 sureTimer = 1;
                 resimAcilsinmi = false;
 
-                dogruText.text = gameManager.dogruAdet.ToString() + "DOĞRU";
-                yanlisText.text = gameManager.yanlisAdet.ToString() + "YANLIŞ";
-                puanText.text = gameManager.toplamPuan.ToString() + "PUAN";
+                dogruText.text = gameManager.dogruAdet.ToString() + " DOĞRU";
+                yanlisText.text = gameManager.yanlisAdet.ToString() + " YANLIŞ";
+                puanText.text = gameManager.toplamPuan.ToString() + " PUAN";
 
                 tekrarOynaBtn.GetComponent<RectTransform>().DOScale(1, .3f);
                 anaMenuBtn.GetComponent<RectTransform>().DOScale(1, .3f);
 
             }
         }
+    }
+
+    public void TekrarOyna()
+    {
+        SceneManager.LoadScene("GameLevel");
+    }
+
+    public void AnaMenuyeDon()
+    {
+        SceneManager.LoadScene("MenuLevel");
     }
 }
