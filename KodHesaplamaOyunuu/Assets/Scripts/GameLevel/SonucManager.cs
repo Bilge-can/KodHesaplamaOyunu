@@ -19,9 +19,7 @@ public class SonucManager : MonoBehaviour
     float sureTimer;
     bool resimAcilsinmi;
 
-
-    
-    void Start()
+    private void OnEnable()
     {
         sureTimer = 0;
         resimAcilsinmi = true;
@@ -36,6 +34,9 @@ public class SonucManager : MonoBehaviour
         StartCoroutine(ResimAcRoutine());
 
     }
+
+
+    
 
     
     IEnumerator ResimAcRoutine()

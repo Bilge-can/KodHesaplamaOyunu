@@ -11,12 +11,25 @@ public class TimerManager : MonoBehaviour
     int kalanSure ;
 
     bool sureSaysinmi ;
-    
+
+    [SerializeField]
+    private GameObject sonucPaneli;
+
+    [SerializeField]
+    private GameObject sonuclarObje,zamanObje,dogruYanlisObje,playerObje,puanObje;
+
     void Start()
     {
-        kalanSure = 90;
+        kalanSure = 10;
         sureSaysinmi =true;
 
+        sonucPaneli.SetActive(false);
+
+        sonuclarObje.SetActive(true);
+        zamanObje.SetActive(true);
+        dogruYanlisObje.SetActive(true);
+        playerObje.SetActive(true);
+        puanObje.SetActive(true);
         StartCoroutine(SureTimerRoutine());
     }
 
@@ -39,8 +52,20 @@ public class TimerManager : MonoBehaviour
             {
                 sureSaysinmi = false;
                 SureText.text = "";
+                EkraniTemizle();
+                sonucPaneli.SetActive(true);
             }
             kalanSure--;
         }
+    }
+
+    void EkraniTemizle()
+    {
+       
+        sonuclarObje.SetActive(false);
+        zamanObje.SetActive(false);
+        dogruYanlisObje.SetActive(false);
+        playerObje.SetActive(false);
+        puanObje.SetActive(false);
     }
 }
