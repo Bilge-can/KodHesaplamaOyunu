@@ -3376,3 +3376,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.782911 seconds.
+  path: Assets/Scenes/MenuLevel.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLevel.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb8b6f36be4a0ea61dd6f74f123eb1e') in 0.009262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 629.223204 seconds.
+  path: Assets/Scenes/GameLevel.unity
+  artifactKey: Guid(47ffb8b8c186244429f2d9e9ff804d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevel.unity using Guid(47ffb8b8c186244429f2d9e9ff804d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6422607d8436287fdf55955b3b11e637') in 0.001033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.940417 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonucPanel.psd
+  artifactKey: Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonucPanel.psd using Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af14d4f296154209b25f09dc12626139') in 0.834064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.812437 seconds.
+  path: Assets/Sprites/sahneElemanlar/sonucPanel.psd
+  artifactKey: Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sahneElemanlar/sonucPanel.psd using Guid(5ff326f19056e4eeaa7364835eb0b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1fff647da38c243c8648b9578a0006') in 0.066339 seconds 
