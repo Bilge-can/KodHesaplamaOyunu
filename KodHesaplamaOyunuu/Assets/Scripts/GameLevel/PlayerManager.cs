@@ -19,10 +19,21 @@ public class PlayerManager : MonoBehaviour
     float ikiMermiArasiSure = 200f;
 
     float sonrakiAtis;
-   
+
+    public bool rotaDegissinmi;
+
+    private void Start()
+    {
+        rotaDegissinmi = false;
+    }
+
     void Update()
     {
-        RotateDegistir();
+        if (rotaDegissinmi)
+        {
+            RotateDegistir();
+        }
+       
     }
 
     void RotateDegistir()

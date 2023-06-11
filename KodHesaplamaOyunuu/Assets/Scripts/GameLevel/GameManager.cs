@@ -25,6 +25,13 @@ public class GameManager : MonoBehaviour
 
     int dogruAdet, yanlisAdet, toplamPuan;
 
+    PlayerManager playerManager;
+
+    private void Awake()
+    {
+        playerManager = Object.FindObjectOfType<PlayerManager>();
+    }
+
 
     void Start()
     {
@@ -59,6 +66,7 @@ public class GameManager : MonoBehaviour
 
     void OyunaBasla()
     {
+        playerManager.rotaDegissinmi = true;
         SoruyuYazdir();
     }
 

@@ -14,7 +14,7 @@ public class TimerManager : MonoBehaviour
     
     void Start()
     {
-        kalanSure = 12;
+        kalanSure = 90;
         sureSaysinmi =true;
 
         StartCoroutine(SureTimerRoutine());
